@@ -1,0 +1,117 @@
+
+
+header {
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    border-bottom: 1.5px solid #f1f1f1;
+    display: flex;
+    font-weight: 300;
+    justify-content: space-between;
+    padding-left: 65px;
+    padding-right: 65px;
+    height: 60px;
+}
+
+.icon {
+    font-size: 16px;
+    padding-right: 8px;
+}
+
+header ul {
+    align-items: center;
+    display: flex;
+}
+
+header ul li {
+    align-items: center;
+    list-style: none;
+}
+
+header ul li a {
+    color: #6a6a6a;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #8c0de0;
+    font-weight: 800;
+    text-decoration: underline;
+    transition: 0.4s;
+}
+
+.menu__link.ativo {
+    font-weight: 700;
+    color: #8c0de0;
+    font-weight: 800;
+}
+
+.mensagem {
+    align-items: center;
+    background-color: #f1f1f1;
+    display: flex;
+    font-weight: 400;
+    height: 45px;
+    width: 100%;
+}
+
+.mensagem__alerta {
+    color: #3b3b3b;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    padding: 65px;
+}
+
+.mensagem__alerta:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 0) {
+    .header  {
+        font-size: 10px;
+        justify-content: space-between;
+        padding: 0 80px;
+    }   
+    .mensagem__alerta {
+        font-size: 10px;
+    }
+    .icon  {
+        font-size: 10px;
+    }
+    .menu__link {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .header  {
+        font-size: 10px;
+        justify-content: space-between;
+        padding: 0 80px;
+    }   
+    .mensagem__alerta {
+        font-size: 10px;
+    }
+    .icon  {
+        font-size: 10px;
+    }
+    .menu__link {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .header .mensagem {
+        font-size: 16px;
+        justify-content: space-between;
+        padding: 0 80px;
+    }   
+    .icon  {
+        font-size: 16px;
+    }
+    .menu__link {
+        font-size: 16px;
+    }
+}
